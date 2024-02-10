@@ -1,0 +1,49 @@
+
+.login-container{
+    width: 335px;
+    margin: auto;
+    margin-top: 40px;
+}
+
+.login-container p{
+    font-size: 18px;
+    text-align: left;
+    color: #1D2226;
+    opacity: 60%;
+    margin: auto;
+    width: 335px;
+    margin-top: 10px;
+    font-variant: regular;
+    font-family: 'Rubik', Regular, sans-serif;
+    font-weight:100;
+    font-style: normal;
+}
+
+
+button{
+    border: none;
+    border-radius: 6px;
+}
+
+.login-form{
+    margin-top: 33px;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+.second-input{
+    margin-top: 12px;
+}
+
+.login-label{
+    position: absolute;
+    background-color:#F7F8F9;
+    top: -7px;
+    left: 11px;
+    width: 100px;
+    padding: 0 0 0 4px;
+    font-size: 13px;
+    font-family: Rubik, Regular,sans-serif;
+    color: #6C25FF;
+}

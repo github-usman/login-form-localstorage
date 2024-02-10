@@ -1,0 +1,15 @@
+
+
+.submit-btn{
+    opacity: 100%;
+    width: 335px;
+    border-radius: 6px;
+    font-family: 'Rubik';
+    font-size: 16px;
+    height: 46px;
+    border: none;
+    letter-spacing: 0px;
+    color:#FFFFFF;
+    cursor: pointer;
+}
+

@@ -1,0 +1,67 @@
+.title-heading{
+    width: 100%;
+    font-size: 18px;
+    font-weight: 100;
+    padding:0 20px;
+    height: 68px;
+    background: #FFFFFF;
+    font-family: Rubik,Regular;
+    padding-top: 27px;
+    text-transform: capitalize;
+}
+
+.profile-container{
+    width: 337px;
+    margin:30px auto 10px auto;
+    font-family: Rubik,Regular;
+    text-transform: capitalize;
+}
+.profile-container img{
+    height: 76px;
+    width: 76px;
+}
+
+.profile-container p{
+    font-size: 14px;
+    color: #1D2226;
+    line-height: 22px;
+    
+}
+.photo-name{
+    display: flex;
+}
+
+.user-image{
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.icon{
+    position: absolute;
+    right: -4px;
+    bottom: 7px;
+}
+
+.user-name{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    margin-left: 20px;
+   
+}
+.user-name p:nth-child(1){
+    font-weight: 520;
+}
+
+hr{
+    border: dotted 2px #CBCBCB;
+    border-style: none none dotted none;
+    width: 100%; 
+}
+hr:last-child{
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 40px;
+    border-style: none none dotted;
+    width: 100%;
+}

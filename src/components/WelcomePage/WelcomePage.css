@@ -1,0 +1,38 @@
+
+
+.welcome-container p{
+    font-size: 18px;
+    text-align: left;
+    color: #1D2226;
+    opacity: 60%;
+    margin: auto;
+    /* width: 335px; */
+    margin-top: 10px;
+    font-variant: regular;
+    font-family: 'Rubik', Regular, sans-serif;
+    font-weight:100;
+    font-style: normal;
+}
+
+
+body{
+    border: 2px solid #cbcbcb5b;
+    position: relative;
+}
+
+.welcome-container{
+    bottom: 0;
+    margin-bottom: 40px;
+    width: 335px;
+    margin-left: 20px;
+    position: absolute;
+    bottom: 0;
+}
+
+.btn-two{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: auto;
+    margin-top: 29px;
+}

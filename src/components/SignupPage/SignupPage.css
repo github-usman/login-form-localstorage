@@ -1,0 +1,73 @@
+.signup-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 40px;
+    width: 335px;
+    margin-left: auto;
+    margin-right: auto;
+    height: calc(100vh - 80px);
+} 
+
+
+.signup-inputs{
+    margin-top: 31px;
+    display: flex;
+    flex-direction: column;
+    gap: 29px;
+}
+.signup-container button{
+    width: 335px;
+    margin: 0 auto;
+ 
+ }
+.singup-div{
+    position: relative;
+    outline:none;
+}
+
+.signup-label{
+    position: absolute;
+    background-color:#F7F8F9;
+    top: -7px;
+    left: 11px;
+    width: 105px;
+    padding: 0 0 0 4px;
+    font-size: 13px;
+    font-family: Rubik, Regular,sans-serif;
+    color: #6C25FF;
+}
+
+.signup-input{
+    border: 1px solid #CBCBCB;
+    border-radius:6px;
+    outline:none;
+    height:40px;
+    color: #1D2226;
+    width: 335px;
+    margin: 0 auto;
+    padding: 0 14px;
+    display: block;
+    font-size: 14px;
+    font-family: Rubik, Regular,sans-serif;
+    background-color: #F7F8F9;
+
+ }
+ .signup-input::placeholder{
+    color: #919191;
+ } 
+
+ .signup-agency-lebel{
+   margin-top: -11px;
+ }
+
+ .signup-radio{
+    display: flex;
+    width: 132px;
+    margin-top: 10px;
+    justify-content: space-between;
+ }
+ .signup-radio input{
+    height: 22px;
+    width: 22px;
+ }
