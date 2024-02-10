@@ -24,6 +24,9 @@ function LoginPage() {
             navigate('/profile');
         } else {
             setErrorMessage('Wrong credentials. Please try again.');
+            setTimeout(() => {
+                setErrorMessage('');
+            }, 4000);
         }
     };
 

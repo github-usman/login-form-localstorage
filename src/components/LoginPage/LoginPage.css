@@ -49,8 +49,9 @@ button{
 }
 
 .errorMessag{
-    color: #f16d45;
+    color: #c9532f;
     font-size: 20px;
     text-align: center;
+    font-weight: 500;
     margin-top: 10px;
 }
